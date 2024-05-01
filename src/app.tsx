@@ -1,6 +1,6 @@
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import Draggable from "./draggable";
-import { restrictToParentTop } from "./modifiers/restrictToParentTop";
+import { restrictToParentTop } from "./restrict-to-parent-top";
 import { useState } from "react";
 
 function App() {
